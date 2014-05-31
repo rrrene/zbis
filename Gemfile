@@ -4,7 +4,9 @@ ruby '1.9.3'
 gem 'rails', '4.0.5'
 gem 'rails-i18n'
 
-gem 'pg'                          # PostgreSQL database       https://bitbucket.org/ged/ruby-pg/src
+group :production do
+  gem 'pg'                          # PostgreSQL database       https://bitbucket.org/ged/ruby-pg/src
+end
 
 gem 'rails_12factor'              # Environments              https://github.com/heroku/rails_12factor
 gem 'aws-sdk'                     # Amazon Web Services       http://aws.amazon.com/fr/sdkforruby/
@@ -23,6 +25,7 @@ group :development do
   gem 'annotate'                  # Annotate                  https://github.com/ctran/annotate_models
   gem 'meta_request'              # Rails panel               https://github.com/dejan/rails_panel
   # gem 'debugger'                  # Debug                     https://github.com/cldwalker/debugger
+  gem 'sqlite3'
 end
 
 group :doc do
