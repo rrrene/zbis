@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  age_minimum: 1
+  age_maximum: 1
+  professional: false
+
+two:
+  age_minimum: 1
+  age_maximum: 1
+  professional: false

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Age minimum:</strong>
+  <%= @public.age_minimum %>
+</p>
+
+<p>
+  <strong>Age maximum:</strong>
+  <%= @public.age_maximum %>
+</p>
+
+<p>
+  <strong>Professional:</strong>
+  <%= @public.professional %>
+</p>
+
+<%= link_to 'Edit', edit_public_path(@public) %> |
+<%= link_to 'Back', publics_path %>

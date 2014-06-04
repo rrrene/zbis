@@ -1,4 +1,7 @@
 Zbis::Application.routes.draw do
+  resources :workshops
+  resources :publics
+
   resources :machines
   root 'machines#index'
 

@@ -10,6 +10,8 @@
 #
 
 class Machine < ActiveRecord::Base
+  has_and_belongs_to_many :publics
+
   # Validations
   validates :label, presence: true
 end

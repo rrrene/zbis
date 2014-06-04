@@ -1,0 +1,31 @@
+<h1>Listing publics</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Age minimum</th>
+      <th>Age maximum</th>
+      <th>Professional</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @publics.each do |public| %>
+      <tr>
+        <td><%= public.age_minimum %></td>
+        <td><%= public.age_maximum %></td>
+        <td><%= public.professional %></td>
+        <td><%= link_to 'Show', public %></td>
+        <td><%= link_to 'Edit', edit_public_path(public) %></td>
+        <td><%= link_to 'Destroy', public, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Public', new_public_path %>
