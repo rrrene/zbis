@@ -6,7 +6,7 @@
 
 ### Rails
 
-Install Rails with the [Rails Installer](http://railsinstaller.org/fr-FR)
+Install Rails with the [Rails Installer](http://railsinstaller.org/fr-FR).
 
 ### Editor
 
