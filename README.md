@@ -19,11 +19,11 @@ Install Rails with the [Rails Installer](http://railsinstaller.org/fr-FR).
 
 ### Heroku
 
-    $ git remote add heroku git@github.com:sc21/zbis-staging.git
-    $ git remote add production git@github.com:sc21/zbis.git
+    $ git remote add heroku git@heroku.com:zbis-staging.git
+    $ git remote add production git@heroku.com:zbis.git
     $ git remote -v
-      origin  git@github.com:sc21/zbis-staging.git (fetch)
-      origin  git@github.com:sc21/zbis-staging.git (push)
+      origin  git@github.com:sc21/zbis.git (fetch)
+      origin  git@github.com:sc21/zbis.git (push)
       heroku  git@heroku.com:zbis-staging.git (fetch)
       heroku  git@heroku.com:zbis-staging.git (push)
       production git@heroku.com:zbis.git (fetch)
