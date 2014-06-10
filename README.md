@@ -33,6 +33,12 @@ Install Rails with the [Rails Installer](http://railsinstaller.org/fr-FR).
     $ heroku plugins:install git://github.com/heroku/heroku-pipeline.git
     $ heroku pipeline:add zbis
 
+### Deploy
+
+Push to staging: `git push heroku master`
+
+Push to production: first, push to staging. Second, promote to production (`heroku pipeline:promote`)
+
 ## Tools
 
 - [CodeClimate](https://codeclimate.com)
