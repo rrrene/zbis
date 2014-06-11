@@ -1,6 +1,6 @@
 # zbis
 
-[![Code Climate](https://codeclimate.com/github/sc21/zbis.png)](https://codeclimate.com/github/sc21/zbis)
+[![Code Climate](https://codeclimate.com/github/sc21/zbis.png)](https://codeclimate.com/github/sc21/zbis) [![Inline docs](http://inch-ci.org/github/sc21/zbis.png?branch=master)](http://inch-ci.org/github/sc21/zbis)
 
 ## Installation
 
